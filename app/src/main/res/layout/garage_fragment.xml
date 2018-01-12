@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cstr_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f2f2"
+        tools:context=".screens.garage.ui.GarageFragment">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_add_evacuator"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:clickable="true"
+            android:theme="@style/AppDarkBlueTheme"
+            android:tint="@color/white"
+            app:elevation="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_garage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layoutManager="@string/linear_layout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/card_evacuator" />
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

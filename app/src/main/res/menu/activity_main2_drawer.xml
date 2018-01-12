@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_garage"
+            android:icon="@drawable/ic_wrecker"
+            android:title="Эвакуаторы" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_list_order"
+            android:title="Список заказов" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_web"
+            android:title="Возможности веб сервиса" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Профиль"/>
+        <item
+            android:id="@+id/nav_exite"
+            android:title="Выход" />
+
+    </group>
+
+
+</menu>

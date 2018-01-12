@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Metr</string>
+    <string name="linear_layout">android.support.v7.widget.LinearLayoutManager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_selection_type_user">Тип учетной записи</string>
+    <string name="title_registration_phisical_user">Регистрация физического лица</string>
+    <string name="title_registration_juridical_user">Регистрация юридического лица</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="enter_number_phone">Введите номер телефона</string>
+    <string name="enter_sms_password">Введите пароль из СМС</string>
+    <string name="next">Далее</string>
+    <string name="auth">АВТОРИЗАЦИЯ</string>
+    <string name="reg">РЕГИСТРАЦИЯ</string>
+    <string name="repeated_request">Повторная отправка пароля\n возможна через:</string>
+    <string name="repeated">Повторная отправка</string>
+    <string name="error_number_phone">Номер телефона введен не верно</string>
+    <string name="error_sms_code">Пароль введен не верно</string>
+    <string name="agreement_text">Тест понимает эриксоновский гипноз. Конформизм, на первый взгляд, интегрирует девиантный код. Как мы уже знаем, коллективное бессознательное случайно. Коллективное бессознательное, иcходя из того, что иллюстрирует кризис, следовательно основной закон психофизики: ощущение изменяется пропорционально логарифму раздражителя . Бессознательное непоследовательно аннигилирует аутизм.\n\nСтруктурный голод столь же важен для жизни, как и действие параллельно. Придерживаясь жестких принципов социального Дарвинизма, чувство традиционно отчуждает гендер. Ретардация доступна. Л.С.Выготский понимал тот факт, что агрессия начинает бихевиоризм. Стимул просветляет девиантный стресс.
+
+Кризис, как принято считать, дает филогенез. Интеллект отражает конформизм. Воспитание, несмотря на внешние воздействия, аннигилирует интеракционизм, это обозначено Ли Россом как фундаментальная ошибка атрибуции, которая прослеживается во многих экспериментах. Мышление просветляет социометрический эскапизм."</string>
+    <string name="information_registration">Тест понимает эриксоновский гипноз. Конформизм, на первый взгляд, интегрирует девиантный код. Как мы уже знаем, коллективное бессознательное случайно. Коллективное бессознательное, иcходя из того, что иллюстрирует кризис, следовательно основной закон психофизики: ощущение изменяется пропорционально логарифму раздражителя. Коллективное бессознательное, иcходя из того, что иллюстрирует кризис, следовательно основной закон психофизики: </string>
+    <string name="bind_ak">Привязать аккаунт</string>
+    <string name="reg_phis_user">Зарегистрировать физическое лицо</string>
+    <string name="reg_jurid_user">Зарегистрировать юридическое лицо</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

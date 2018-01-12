@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cstr_card_evacuator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginStart="3dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/iv_evacuator"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:civ_border="true"
+                    app:civ_border_color="@color/dark_blue"
+                    app:civ_border_width="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:src="@drawable/group_2" />
+
+                <TextView
+                    android:id="@+id/tv_name_mark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/proxima_nova_semibold"
+                    android:text="Mitsubisi Lancer "
+                    android:textColor="@color/dark_blue_text_evacuator"
+                    android:textSize="22sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/iv_evacuator"
+                    app:layout_constraintTop_toTopOf="@+id/iv_evacuator" />
+
+                <TextView
+                    android:id="@+id/tv_number_evacuator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_evacuator_number"
+                    android:fontFamily="@font/proxima_nova_semibold"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text=" A 123 OA 178 RUS"
+                    android:textAllCaps="true"
+                    android:textColor="@color/grey_number_evacuator"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="@+id/tv_name_mark"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_name_mark" />
+
+                <TextView
+                    android:id="@+id/tv_status_evacuator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/rectangle_fill_grey"
+                    android:fontFamily="@font/proxima_nova_semibold"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="1dp"
+                    android:text="на линии"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#9699a7"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_number_evacuator"
+                    app:layout_constraintStart_toStartOf="@+id/tv_number_evacuator"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_number_evacuator" />
+
+               <!-- <include
+                    android:id="@+id/decor"
+                    layout="@layout/view_decor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent" />-->
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
